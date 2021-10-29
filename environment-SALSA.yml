@@ -6,6 +6,7 @@ channels:
 dependencies:
   - salsa2
   - bowtie
+  - libgcc-ng
   - python>=3.5
     - pip
     - mpi4py
