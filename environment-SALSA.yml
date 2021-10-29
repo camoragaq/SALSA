@@ -6,3 +6,4 @@ channels:
 dependencies:
   - salsa2
   - bowtie
+  - python_modules_packages
