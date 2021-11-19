@@ -22,3 +22,5 @@ RUN mkdir /opt/salsa
 RUN cd /opt/salsa/ && git clone https://github.com/marbl/SALSA.git && cd SALSA && make
 RUN ln -s /opt/salsa/SALSA/run_pipeline.py /opt/salsa/SALSA/salsa
 ENV PATH /opt/salsa/SALSA/:$PATH
+
+###
